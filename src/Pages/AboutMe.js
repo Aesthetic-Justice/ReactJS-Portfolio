@@ -1,34 +1,47 @@
 const AboutMe = () => {
     return (
-        <section class="block">
-            <div class="container is-fluid columns is-vcentered">
-                <div class="column is-2">
-                    <h2 class="subtitle is-4" id="catAboutMe">About Me</h2>
-                </div>
-                <div class="column">
-                    <div class="columns">
-                        <div class="column is-4">
-                            <p class="is-12">Avatar/Img:</p>
-                            <img src="./assets/Art/selfie.jpg" alt="a meme" class="is-12"/>
-                        </div>
-                        <div class="column">
-                            <p>
-                                Born and Raised: West Philadelphia
-                            </p>
-                            <p>
-                                Spent most of my days: On the playground, chilling out max and relaxing all cool
-                            </p>
-                            <p>
-                                Where I played B-Ball: Outside of the school
-                            </p>
-                            <p>
-                                etc. etc. the rest of the Fresh Prince theme song lyrics.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+        <div style={{ margin: "auto", width: "80%" , marginTop:"15px",marginBottom:"15px"}}>
+            <div class="box">
+                <p>About Me:</p>
+                <hr />
+                <p>
+                    I'm a Data-oriented software development enthusiast with a background touching on Data Management, Web Development, Hardware Repair/Maintenance, and Game Design.
+                </p>
             </div>
-        </section>
+
+            <div class="box">
+                <p>
+                    2 Years Experience in Indie Game Development, coding in primarily C++.
+                    <hr />
+                    Familiar with common industry tools, such as; Unreal Engine 4, Unity, Blender, Visual Studio, VSCode, Mixamo, Incredibuild, and Quixel Bridge.
+                </p>
+            </div>
+
+            <div class="box">
+                <p>
+                    3 Years Experience in Data Management
+                    <hr />
+                    Familiar with common industry tools, such as; Microsoft Excel, Google Sheets, the Open Office Suite, as well as integration between standard industry tools and internal proprietary software.
+                </p>
+            </div>
+
+            <div class="box">
+                <p>
+                    1 Year Experience in Web Development, coding primarily in Javascript.
+                </p>
+                <hr />
+                <p>
+                    Familiar with Frameworks such as; React, BootStrap, Bulma, and Tailwind
+                </p>
+                <p>
+                    Packages such as; ExpressJS, NodeJS, HandleBars
+                </p>
+                <p>
+                    and Software such as; MySQL, MongoDB, Insomnia, and HerokuCLI
+                </p>
+
+            </div>
+        </div>
     )
 };
 
