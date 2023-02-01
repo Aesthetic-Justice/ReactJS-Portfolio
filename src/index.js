@@ -1,22 +1,21 @@
 //Dependencies
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { createRoot } from 'react-dom/client';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 //Components
 import Header from './Components/Header'
-import Footer from './Components/Footer'
 
 //Pages
-import AboutMe from './Pages/AboutMe';
-import Projects from './Pages/Projects';
-import ContactMe from './Pages/ContactMe';
-import Resume from './Pages/Resume';
+import AboutMe from './pages/AboutMe';
+import Projects from './pages/Projects';
+import ContactMe from './pages/ContactMe';
+import Resume from './pages/Resume';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById("root"));
+
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Header />}>
           <Route index element={<AboutMe />} />
@@ -26,7 +25,5 @@ root.render(
           <Route path='*' element={<AboutMe />} />
         </Route>
       </Routes>
-    </BrowserRouter>
-    <Footer />
-  </React.StrictMode>
+    </HashRouter>
 );

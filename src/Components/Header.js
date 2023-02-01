@@ -1,6 +1,7 @@
 import 'bulma/css/bulma.min.css';
 import { Outlet } from 'react-router-dom';
 import Nagivation from './Navigation';
+import Footer from './Footer';
 
 const bgStyle = {
   backgroundImage: 
@@ -31,6 +32,7 @@ const App = () => {
       <div style={bgStyle}>
       </div>
         <Outlet />
+        <Footer />
     </main>
   )
 }
