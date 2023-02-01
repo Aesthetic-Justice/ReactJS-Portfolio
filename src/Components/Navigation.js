@@ -12,34 +12,34 @@ const Navigation = () => {
             return;
         }
 
-        NavBarButtons[0].className='button is-info';
-        NavBarButtons[1].className='button is-info';
-        NavBarButtons[2].className='button is-info';
-        NavBarButtons[3].className='button is-info';
+        NavBarButtons[0].className='button is-info px-0';
+        NavBarButtons[1].className='button is-info px-0';
+        NavBarButtons[2].className='button is-info px-0';
+        NavBarButtons[3].className='button is-info px-0';
 
-        event.target.className='button is-info is-outlined';
+        event.target.className='button is-info px-0 is-outlined';
     }
 
     return (
         <nav className="navbar subtitle is-6 is-justify-content-right">
             <ul className="navbar-brand columns is-vcentered is-multiline" >
                 <li className='mr-2'>
-                    <button className='button is-info is-outlined' onClick={handleClick}>
+                    <button className='button is-info px-0 is-outlined' onClick={handleClick}>
                         <Link className="column" to="/">About Me</Link>
                     </button>
                 </li>
                 <li className='mr-2'>
-                    <button className='button is-info' onClick={handleClick}>
+                    <button className='button is-info px-0' onClick={handleClick}>
                         <Link className="column" to="/projects">Projects</Link>
                     </button>
                 </li>
                 <li className='mr-2'>
-                    <button className='button is-info' onClick={handleClick}>
+                    <button className='button is-info px-0' onClick={handleClick}>
                         <Link className="column" to="/resume">Resume</Link>
                     </button>
                 </li>
                 <li className='mr-2'>
-                    <button className='button is-info' onClick={handleClick}>
+                    <button className='button is-info px-0' onClick={handleClick}>
                         <Link className="column" to="/contact-me">Contact Me</Link>
                     </button>
                 </li>
