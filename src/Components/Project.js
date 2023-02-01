@@ -1,9 +1,12 @@
 const Project = (data) => {
     return (
-        <a href={data.project.link} className="column">
+        <div className="box column is-3" style={{ margin: "20px" }}>
             <p>{data.project.name}</p>
-            <img src={data.project.image} alt="" />
-        </a>
+            <p>Deployed App: <a href={data.project.repo} alt="">Here</a></p>
+            <a href={data.project.link} className="column">
+                <img src={data.project.image} style={{ width: "20rem", height: "20rem" }} alt="" />
+            </a>
+        </div>
     )
 };
 

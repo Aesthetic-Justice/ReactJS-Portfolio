@@ -2,17 +2,16 @@ import Project from "../Components/Project";
 import projectList from "../projectList";
 
 const Projects = () => {
-    var projectArray = [];
+    let projectArray = [];
+    let num=0;
     for(const iterator of projectList){
-        projectArray.push(<Project project={iterator}/>)
+        num++;
+        projectArray.push(<Project project={iterator} key={num}/>)
     }
 
     return (
-        <section className="box">
-            <div className="container is-fluid columns is-vcentered" id="resume-container">
-                <div className="column is-2">
-                    <h2 className="subtitle is-4">Resume</h2>
-                </div>
+        <section>
+            <div className="is-centered columns is-multiline">
                 {projectArray}
             </div>
         </section>

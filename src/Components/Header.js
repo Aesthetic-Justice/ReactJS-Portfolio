@@ -19,10 +19,10 @@ const App = () => {
   return (
     <main>
       <section className="hero is-dark">
-        <div className="hero-body" style={{ width: "100vw" }}>
+        <div className="hero-body pt-3" style={{ width: "100vw" }}>
           <div>
             <a href="./">
-              <img alt='Site Logo' src="./nameSig.png" />
+              <img className='mb-4' alt='Site Logo' src="./nameSig.png" />
             </a>
             <Nagivation />
           </div>
