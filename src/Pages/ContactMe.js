@@ -2,17 +2,17 @@ const ContactMe = () => {
     return (
         <div style={{ margin: "auto", width: "80%", marginTop: "15px", marginBottom: "15px" }}>
             <div className="box">
-                <div class="field">
-                    <label class="label">Name</label>
-                    <div class="control">
-                        <input class="input" type="text" placeholder="e.g John Doe"/>
+                <div className="field">
+                    <label className="label">Name</label>
+                    <div className="control">
+                        <input className="input" type="text" placeholder="e.g John Doe"/>
                     </div>
                 </div>
 
-                <div class="field">
-                    <label class="label">Email</label>
-                    <div class="control">
-                        <input class="input" type="email" placeholder="e.g. johndoe@gmail.com"/>
+                <div className="field">
+                    <label className="label">Email</label>
+                    <div className="control">
+                        <input className="input" type="email" placeholder="e.g. johndoe@gmail.com"/>
                     </div>
                 </div>
 
