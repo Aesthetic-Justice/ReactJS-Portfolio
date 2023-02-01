@@ -4,7 +4,7 @@ import Nagivation from './Navigation';
 
 const bgStyle = {
   backgroundImage: 
-  "url('./IMG_3357.png')",
+  "url('./Assets/IMG_3357.png')",
   position:'fixed',
   top:0,
   right:0,
@@ -22,7 +22,7 @@ const App = () => {
         <div className="hero-body pt-3" style={{ width: "100vw" }}>
           <div>
             <a href="./">
-              <img className='mb-4' alt='Site Logo' src="./nameSig.png" />
+              <img className='mb-4' alt='Site Logo' src="./Assets/nameSig.png" />
             </a>
             <Nagivation />
           </div>

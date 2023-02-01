@@ -2,7 +2,7 @@ const AboutMe = () => {
     return (
         <div style={{ margin: "auto", width: "80%" , marginTop:"15px",marginBottom:"15px"}}>
             <div className="box" style={{marginRight:"50px"}}>
-                <img src="./094-2.png" alt="Self-Portrait" />
+                <img src="./Assets/094-2.png" alt="Self-Portrait" />
             </div>
             <div className="box">
                 <p>About Me:</p>
